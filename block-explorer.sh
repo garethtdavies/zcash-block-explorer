@@ -22,7 +22,7 @@ git clone https://github.com/str4d/zcash.git
 cd zcash
 
 # switch to sprout version of source code; this will change in the future
-git checkout v1.0.4-bitcore-3
+git checkout v1.1.0-bitcore
 
 # download proving parameters
 ./zcutil/fetch-params.sh
@@ -37,7 +37,7 @@ sudo apt-get -y install lintian
 ./zcutil/build-debian-package.sh
 
 # install zcash
-sudo dpkg -i zcash-1.0.0-sprout-amd64.deb
+sudo dpkg -i zcash-1.1.0-*-amd64.deb
 
 echo "---------------"
 echo "installing node and npm"

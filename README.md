@@ -1,7 +1,7 @@
 # zcash-block-explorer
-Script to install and setup a zcash block explorer on Ubuntu 16.04 for the zcash beta2 testnet.
+Script to install and setup a zcash block explorer on Ubuntu 16.x or newer, or Debian 8+ for the zcash Overwinter network
 
-On a fresh Ubuntu 16.04 server, from a non-root user's home directory, run the following commands:
+On a fresh Ubuntu/Debian server, from a non-root user's home directory, run the following commands:
 ```
 sudo apt-get update
 

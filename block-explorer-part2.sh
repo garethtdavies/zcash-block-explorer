@@ -22,7 +22,7 @@ sudo apt-get -y install libzmq3-dev
 echo "---------------"
 echo "installing zcash patched bitcore"
 echo 
-npm install str4d/bitcore-node-zcash
+npm install zcash-hackworks/bitcore-node-zcash
 
 echo "---------------"
 echo "setting up bitcore"
@@ -38,7 +38,7 @@ echo "---------------"
 echo "installing insight UI"
 echo
 
-../node_modules/bitcore-node-zcash/bin/bitcore-node install str4d/insight-api-zcash str4d/insight-ui-zcash
+../node_modules/bitcore-node-zcash/bin/bitcore-node install zcash-hackworks/insight-api-zcash zcash-hackworks/insight-ui-zcash
 
 
 echo "---------------"

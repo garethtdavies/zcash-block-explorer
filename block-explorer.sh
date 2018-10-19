@@ -28,7 +28,7 @@ git checkout v2.0.1-insight-explorer
 ./zcutil/fetch-params.sh
 
 # build patched zcash
-./zcutil/build.sh -j$(nproc)
+./zcutil/build.sh --disable-tests -j$(nproc)
 
 # install lintian
 sudo apt-get -y install lintian
